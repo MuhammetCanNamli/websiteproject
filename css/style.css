@@ -1,0 +1,92 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+}
+
+
+html, body {height:100%;}
+body {line-height: 1; width: 1879px; background-color: #e6e6fa;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+a{text-decoration: none; color: coral; font: bold 13px tahoma;}
+a:hover{text-decoration: underline; color: darkgoldenrod;}
+a#mail{text-decoration: none; color: springgreen; font: 18px tahoma;}
+a#fhakkinda{text-decoration: none; color: #ffdead;}
+a#fhakkinda:hover{color: orange;}
+a#filetisim{text-decoration: none; color: #ffdead;}
+a#filetisim:hover{color: orange;}
+a#fgpolitika{text-decoration: none; color: #ffdead;}
+a#fgpolitika:hover{color: orange;}
+
+.ust{width: 100%; height: 60px; background: #5DED6B; float: left;}
+.ustsimge{width: 152.55px; height: 60px; float: left; margin: 0 0 0 190px;}
+
+.ustbar{width: 900px; height: 60px; float: left; margin: 0 300px 0 100px;}
+.ustbar ul li{float: left; position: relative;}
+.ustbar ul li a{display: block; width: 100px; height: 20px; margin: 20px 0 0 50px; text-decoration: none; font: bold 12px tahoma; color: #FFC75F; background: #00CF8D;text-align: center; padding: 10px; border: 1px solid #DDF2FF; border-radius: 5px;}
+.ustbar ul li a:hover{color: #DBF9D8; text-decoration: underline; background-color: #00AE9C;}
+.ustbar ul li ul {display: none; position: absolute; left: 0; top: 50px;}
+.ustbar ul li:hover ul{display: block;}
+
+.ustbarbuyutec{width: 20px; height: 20px; float: left; margin: 20px 2px 0 0;}
+.ustbararama{width: 178px; height: 40px; float: left; margin: 20px 0 0 0;}
+
+.giris{width: 279px; height: 40px; float: left; background-color: #7dfa00; padding: 0 0 0 1600px;}
+.giris ul li{float: left;}
+.giris ul li a{display: block; width: 65px; height: 20px; margin: 10px 0 0 120px; text-decoration: none; font: bold 12px tahoma; color: crimson;}
+.giris ul li a:hover{text-decoration: underline; color: tomato;}
+
+.orta1{width: 1754px; height: 600px; margin: 80px 0 0 125px; float: left;}
+.baslik1{float: left; width: 1670px; height: auto; color: midnightblue; font: bold 25px tahoma; margin: -30px 0 30px 70px; text-decoration: underline;}
+.cizgi1{width: 1610px; height: 1; border-top: 1px solid #000; float: left; margin: 50px 0 0 0;}
+.ortayazi1{text-align: center; margin: 5px 0 0 0;}
+.dmuzik{float: left; width: 350px; height: 470px; margin: 0 70px 0 0;}
+.dfilm{float: left; width: 350px; height: 470px; margin: 0 70px 0 0;}
+.dbelgesel{float: left; width: 350px; height: 470px; margin: 0 70px 0 0;}
+.ddizi{float: left; width: 350px; height: 470px;}
+
+.orta2{width: 1754px; height: 600px; float: left;}
+.baslik2{float: left; width: 1650px; height: auto; color: midnightblue; font: bold 25px tahoma; text-decoration: underline; margin: 0 0 0 200px;}
+.cizgi2{width: 1610px; height: 1; border-top: 1px solid #000; float: left; margin: 50px 0 0 125px;}
+.ortayazi2{text-align: center;}
+.amuzik{float: left; width: 350px; height: 470px; margin: 40px 70px 0 125px;}
+.afilm{float: left; width: 350px; height: 470px; margin: 40px 70px 0 0;}
+.abelgesel{float: left; width: 350px; height: 470px; margin: 40px 70px 0 0;}
+.adizi{float: left; width: 350px; height: 470px; margin: 40px 0 0 0;}
+
+.orta3{width: 1754px; height: 600px; float: left;}
+.baslik3{float: left; width: 1650px; height: auto; color: midnightblue; font: bold 25px tahoma; text-decoration: underline; margin: 50px 0 0 200px;}
+.cizgi3{width: 1610px; height: 1; border-top: 1px solid #000; float: left;  margin: 170px 0 0 125px;}
+.ortayazi3{text-align: center;}
+.ymuzik{float: left; width: 350px; height: 470px; margin: 40px 70px 0 125px;}
+.yfilm{float: left; width: 350px; height: 470px; margin: 40px 70px 0 0;}
+.ybelgesel{float: left; width: 350px; height: 470px; margin: 40px 70px 0 0;}
+.ydizi{float: left; width: 350px; height: 470px; margin: 40px 0 0 0;}
+
+.orta4{width: 1600px; height: 700px; float: left; margin: 180px 0 0 220px;}
+.baslik4{float: left; width: 1600px; height: auto; color: midnightblue; font: bold 25px tahoma; text-decoration: underline; margin: 50px 0 0 -20px;}
+.ortayazi4{text-align: center; color: coral; font: bold 20px tahoma;}
+.yurtdisi{float: left; width: 350px; height: 470px; margin: 40px 70px 0 125px;}
+.yurtici{float: left; width: 350px; height: 470px; margin: 40px 0 0 425px;}
+
+.footer{width: 1878px; height: 300px; float: left; background-color: #7b68ee;}
+.iletisim{width: 678px; height: 270px; float: left; padding: 30px 0 0 0;}
+.text1{font: bold 23px tahoma; color: #000;}
+.text2{font: 18px tahoma;}
+.cizgia{width: 60px; height: 1px; border-top: 2px solid #000; margin: 30px 0 0 0;}
+.sosyal{width: 100px; height: 20px; margin: 0 0 0 10px;}
+.yt{width: 40px; height: 40px; float: left;}
+.tw{width: 40px; height: 40px; float: left; margin: 0 0 0 20px;}
+.bant{width: 1050px; height: 150px; float: left; padding: 150px 0 0 150px; color: #CCC;} 
+.cizgib{width: 340px; height: 1px; border-top: 2px solid #CCC;}

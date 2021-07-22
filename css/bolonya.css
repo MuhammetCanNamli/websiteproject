@@ -1,0 +1,91 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+}
+
+
+html, body {height:100%;}
+body {line-height: 1; width: 1879px; background-color: lavender;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+a#baslik{color: blue; font: bold 23px tahoma;}
+p#text{font: 22px timesnewroman;}
+p#u{color: brown; font: bold 20px tahoma;}
+a#mail{text-decoration: none; color: springgreen; font: 18px tahoma;}
+a#fhakkinda{text-decoration: none; color: #ffdead;}
+a#fhakkinda:hover{color: orange;}
+a#filetisim{text-decoration: none; color: #ffdead;}
+a#filetisim:hover{color: orange;}
+a#fgpolitika{text-decoration: none; color: #ffdead;}
+a#fgpolitika:hover{color: orange;}
+
+
+.ust{width: 100%; height: 60px; background: #5DED6B;}
+.ustsimge{width: 152.55px; height: 60px; float: left; margin: 0 0 0 190px;}
+
+.ustbar{width: 900px; height: 60px; float: left; margin: 0 300px 0 100px;}
+.ustbar ul li{float: left; position: relative;}
+.ustbar ul li a{display: block; width: 100px; height: 20px; margin: 20px 0 0 50px; text-decoration: none; font: bold 12px tahoma; color: #FFC75F; background: #00CF8D;text-align: center; padding: 10px; border: 1px solid #DDF2FF; border-radius: 5px;}
+.ustbar ul li a:hover{color: #DBF9D8; text-decoration: underline; background-color: #00AE9C;}
+.ustbar ul li ul{display: none; position: absolute; left: 0; top: 50px;}
+.ustbar ul li:hover ul{display: block;}
+
+.ustbarbuyutec{width: 20px; height: 20px; float: left; margin: 20px 2px 0 0;}
+.ustbararama{width: 178px; height: 40px; float: left; margin: 20px 0 0 0;}
+
+.giris{width: 279px; height: 40px; float: left; background-color: #7dfa00; padding: 0 0 0 1600px;}
+.giris ul li{float: left;}
+.giris ul li a{display: block; width: 65px; height: 20px; margin: 10px 0 0 120px; text-decoration: none; font: bold 12px tahoma; color: crimson;}
+.giris ul li a:hover{text-decoration: underline; color: tomato;}
+
+.icerik{width: 1753px; height: auto; float: left; margin: 80px 0 179px 125px;}
+.gorsel{float: left;}
+.baslik1{float: left; width: 1365px; height: auto; margin: 10px 0 0 35px;}
+.baslik2{float: left; width: 400px; height: auto;}
+.baslik2a{float: left; width: 800px; height: auto; text-align: center; margin: 0 0 0 400px;}
+.baslik3{float: left; width: 1365px; height: auto; text-align: center; margin: 50px 0 0 150px;}
+.baslik4{float: left; width: 1365px; height: auto; text-align: center; margin: 50px 0 0 150px;}
+.baslik5{float: left; width: 1365px; height: auto; text-align: center; margin: 50px 0 0 150px;}
+.cizgi1{width: 190px; height: 1px; border-top: 1px solid #000; float: left; margin: 5px 810px 0 35px;}
+.yazi2{width: 1325px; height: auto; float: left; text-align: center; margin: 0 0 0 60px;}
+.yazi3{width: 1325px; height: auto; float: left; text-align: center; margin: 50px 0 0 170px;}
+.yazi4{width: 1325px; height: auto; float: left; text-align: center; margin: 0 0 0 170px;}
+.ulasim1{float: left; width: 500px; height: auto; margin: 120px 0 0 70px;}
+.ulasim2{width: 500px; height: auto; float: left; margin: 20px 0 0 15px;}
+.ucak{float: left; width: 40px; height: 40px;}
+.otobus{float: left; width: 40px; height: 40px; margin: 0 0 0 20px;}
+.tren{width: 34px; height: 40px; float: left; margin: 0 0 0 20px;}
+.gemi{float: left; width: 40px; height: 40px; margin: 0 0 0 20px;}
+
+.text{font: bold 18px tahoma; color: orange;}
+
+.orta1{width: 1000px; height: 700px; float: left; margin: 80px 0 0 300px}
+.icerik1{float: left; width: 1000px; height: 700px; text-align: center;}
+
+.orta2{width: 655px; height: 437px; float: left; margin: 80px 0 40px 500px;}
+.icerik2{float: left; width: 655px; height: 437px; text-align: center;}
+
+.orta3{width: 655px; height: 500px; float: left; margin: 40px 0 40px 500px;}
+.icerik3{float: left; width: 655px; height: 600px; text-align: center;}
+
+.footer{width: 1878px; height: 300px; float: left; background-color: #7b68ee;}
+.iletisim{width: 678px; height: 270px; float: left; padding: 30px 0 0 0;}
+.text1{font: bold 23px tahoma; color: #000;}
+.text2{font: 18px tahoma;}
+.cizgia{width: 60px; height: 1px; border-top: 2px solid #000; margin: 30px 0 0 0;}
+.sosyal{width: 100px; height: 20px; margin: 0 0 0 10px;}
+.yt{width: 40px; height: 40px; float: left;}
+.tw{width: 40px; height: 40px; float: left; margin: 0 0 0 20px;}
+.bant{width: 1050px; height: 150px; float: left; padding: 150px 0 0 150px; color: #CCC;} 
+.cizgib{width: 340px; height: 1px; border-top: 2px solid #CCC;}

@@ -1,0 +1,230 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+}
+
+
+html, body {height:100%;}
+body {line-height: 1; width: 1879px; background-color: lavender;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+a#baslik{text-decoration: none; color: blue; font: bold 23px tahoma;}
+p#text{font: 22px timesnewroman;}
+p#fg{color: brown; font: bold 20px tahoma;}
+a#mail{text-decoration: none; color: springgreen; font: 18px tahoma;}
+a#fhakkinda{text-decoration: none; color: #ffdead;}
+a#fhakkinda:hover{color: orange;}
+a#filetisim{text-decoration: none; color: #ffdead;}
+a#filetisim:hover{color: orange;}
+a#fgpolitika{text-decoration: none; color: #ffdead;}
+a#fgpolitika:hover{color: orange;}
+
+
+.ust{width: 100%; height: 60px; background: #5DED6B;}
+.ustsimge{width: 152.55px; height: 60px; float: left; margin: 0 0 0 190px;}
+
+.ustbar{width: 900px; height: 60px; float: left; margin: 0 300px 0 100px;}
+.ustbar ul li{float: left; position: relative;}
+.ustbar ul li a{display: block; width: 100px; height: 20px; margin: 20px 0 0 50px; text-decoration: none; font: bold 12px tahoma; color: #FFC75F; background: #00CF8D;text-align: center; padding: 10px; border: 1px solid #DDF2FF; border-radius: 5px;}
+.ustbar ul li a:hover{color: #DBF9D8; text-decoration: underline; background-color: #00AE9C;}
+.ustbar ul li ul{display: none; position: absolute; left: 0; top: 50px;}
+.ustbar ul li:hover ul{display: block;}
+
+.ustbarbuyutec{width: 20px; height: 20px; float: left; margin: 20px 2px 0 0;}
+.ustbararama{width: 178px; height: 40px; float: left; margin: 20px 0 0 0;}
+
+.giris{width: 279px; height: 40px; float: left; background-color: #7dfa00; padding: 0 0 0 1600px;}
+.giris ul li{float: left;}
+.giris ul li a{display: block; width: 65px; height: 20px; margin: 10px 0 0 120px; text-decoration: none; font: bold 12px tahoma; color: crimson;}
+.giris ul li a:hover{text-decoration: underline; color: tomato;}
+
+.icerik{width: 1753px; height: auto; float: left; margin: 80px 0 179px 125px;}
+.gorsel{float: left;}
+.baslik1{float: left; width: 1365px; height: auto; margin: 10px 0 0 35px;}
+.baslik2{float: left; width: 1365px; height: auto; margin: 10px 0 0 35px;}
+.baslik3{float: left; width: 1365px; height: auto; margin: 10px 0 10px 150px; text-align: center;}
+.baslik4{float: left; width: 1365px; height: auto; text-align: center; margin: 0 0 0 150px;}
+.baslik5{float: left; width: 1365px; height: auto; text-align: center; margin: 50px 0 0 150px;}
+.baslik6{float: left; width: 1365px; height: auto; text-align: center; margin: 50px 0 0 150px;}
+.cizgi1{width: 155px; height: 1px; border-top: 1px solid #000; float: left; margin: 5px 845px 0 35px;}
+.yazi{width: 1325px; height: 400px; float: left; padding: 30px 0 0 40px;}
+.yazi2{width: 1325px; height: auto; float: left; text-align: center; margin: 0 0 0 60px;}
+.yazi3{width: 1325px; height: auto; float: left; text-align: center; margin: 0 0 0 170px;}
+.yazi4{width: 1325px; height: auto; float: left; text-align: center; margin: 0 0 0 170px;}
+.fragman{width: 1365px; height: auto; float: left; margin: 30px 0 70px 80px;}
+.yt{float: left; width: 40px; height: 40px; margin: 0 0 0 20px;}
+
+.orta{width: 1620px; height: 500px; float: left; margin: 80px 0 0 0}
+.text{font: bold 18px tahoma; color: orange;}
+.icerik1{float: left; width: 300px; height: 420px; text-align: center;}
+.icerik2{float: left; width: 300px; height: 420px; text-align: center; margin: 0 0 0 30px;}
+.icerik3{float: left; width: 300px; height: 420px; text-align: center; margin: 0 0 0 30px;}
+.icerik4{float: left; width: 300px; height: 420px; text-align: center; margin: 0 0 0 30px;}
+.icerik5{float: left; width: 300px; height: 420px; text-align: center; margin: 0 0 0 30px;}
+
+
+.footer{width: 1878px; height: 300px; float: left; background-color: #7b68ee;}
+.iletisim{width: 678px; height: 270px; float: left; padding: 30px 0 0 0;}
+.text1{font: bold 23px tahoma; color: #000;}
+.text2{font: 18px tahoma;}
+.cizgia{width: 60px; height: 1px; border-top: 2px solid #000; margin: 30px 0 0 0;}
+.sosyal{width: 100px; height: 20px; margin: 0 0 0 10px;}
+.ig{width: 40px; height: 40px; float: left;}
+.tw{width: 40px; height: 40px; float: left; margin: 0 0 0 20px;}
+.bant{width: 1050px; height: 150px; float: left; padding: 150px 0 0 150px; color: #CCC;} 
+.cizgib{width: 340px; height: 1px; border-top: 2px solid #CCC;}
+
+.orta2{width: 1620px; height: 700px; float: left; margin: 80px 0 0 0}
+
+.wrapper-gallery{
+    margin: 0 20vw;
+}
+
+#index-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "gallery-p gallery-p gallery-p gallery-p"
+    "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8";
+}
+
+#index-gallery .gallery-img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/*Images*/
+#index-gallery p{
+    grid-area: gallery-p;
+}
+#index-gallery h2{
+    grid-area: gallery-h2;
+}
+#index-gallery .img1{
+    grid-area: img1;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g1.jpg);
+}
+#index-gallery .img2{
+    grid-area: img2;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g2.jpg);
+}
+#index-gallery .img3{
+    grid-area: img3;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g3.jpg);
+}
+#index-gallery .img4{
+    grid-area: img4;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g4.jpg);
+}
+#index-gallery .img5{
+    grid-area: img5;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g5.jpg);
+}
+#index-gallery .img6{
+    grid-area: img6;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g6.jpg);
+}
+#index-gallery .img7{
+    grid-area: img7;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g7.jpg);
+}
+#index-gallery .img8{
+    grid-area: img8;
+    background-image: url(../tasarimlar/galeri/pet_semetary_g8.jpg);
+}
+
+/*Gallery Image Titles*/
+.gallery-img div{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.gallery-img div:hover{
+    opacity: 0.8;
+    transition: all ease-in-out 100ms;
+}
+
+/*Popup window when clicked*/
+.img-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.img-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+
+}
+
+/*Next image*/
+.img-btn-next {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #111;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.img-btn-next:hover {
+    opacity: 0.8;
+}
+
+.img-btn-prev {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #111;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.img-btn-prev:hover {
+    opacity: 0.8;
+}
