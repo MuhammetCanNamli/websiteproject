@@ -10,8 +10,7 @@ Blog Website
 ## IMPORTANT
 
 * In the login system, the username is "admin" and the password is "admin123".
-* In case of any error while logging in, an error message is sent to the user. (Username is incorrect / Password is incorrect / 
-  Username field is empty / Password field is empty)
+* In case of any error while logging in, an error message is sent to the user. (Username is incorrect / Password is incorrect / Username field is empty / Password field is empty)
 * Since I designed my website through Opera Browser, the positioning of header and footer in different browsers may narrow and expand.
 
 ### Dependencies
