@@ -19,13 +19,13 @@ login.onclick = ()=>{
         {
             if((input[1].value != sessionStorage.getItem("username")))
             {
-                alert("Kullanıcı adı hatalı");
+                alert("Username is incorrect");
                 return 0;
             }
 
             if((input[2].value != sessionStorage.getItem("password")))
             {
-                alert("Şifre hatalı");
+                alert("Password is incorrect");
                 return 0;
             }
         }
@@ -34,13 +34,13 @@ login.onclick = ()=>{
     {
         if(input[1].value == "") 
         {
-            alert("Kullanıcı adı alanı boş");
+            alert("Username field is empty");
             return 0;
         }
 
         if(input[2].value == "") 
         {
-            alert("Şifre alanı boş");
+            alert("Password field is empty");
             return 0;
         }
     }
